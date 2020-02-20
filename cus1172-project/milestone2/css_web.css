@@ -46,9 +46,12 @@
    margin-right: auto;
   }
 
-  #ul.a {
-   list-style-type: circle;
+  .centered_list{
+    text-align: center;
   }
 
+  .centered_list ul li{
+    display:inline;
+  }
 
 </style>
