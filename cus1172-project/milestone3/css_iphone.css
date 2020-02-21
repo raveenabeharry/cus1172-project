@@ -69,4 +69,14 @@
     display: inline-block;
   }
 
+  .panel-custom-color{
+    background: #F5FFFA;
+    border-color: #F5FFFA;
+  }
+
+  .panel-heading-custom-color{
+    background: #F5F5F5;
+    border-color: #F5FFFA;
+  }
+
 </style>

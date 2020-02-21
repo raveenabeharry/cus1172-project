@@ -48,7 +48,7 @@
 
 
     <div class="container-fluid" id="about_me">
-       <h2><img src= "barcelona.JPG" width= 38% height= 20% align= left alt="Me in Barcelona!"> <span class="a">Hi, I'm Raveena</span a> </h2>
+       <h2><img src= "barcelona.JPG" width= 38% height= 20% align= left class="img-rounded" alt="Me in Barcelona!"> <span class="a">Hi, I'm Raveena</span a> </h2>
 
         <h3> <div class= "a">I'm a senior at St. John's University studying computer science with a double minor in business administration and
          international studies. As a senior, I've taken most of the required computer science classes and am mainly taking electives now.
@@ -162,26 +162,29 @@
             </div>
 
        <div class= "container-fluid" id="projects">
-         <h2>CUS 1172 Projects</h2> <ul>
-         <h3>My First Project</h3>
-         <p> My first project for CUS 1172 was to create an HTML page that included personal and professional information about myself.
-             Here's a link to my <a href="https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project" target="_blank" style="text-decoration: none;">GitHub repository.</a></p>
-         <h3>My Second Project</h3>
-          <p> My second project for CUS 1172 was to apply CSS to our profile that we created for the first project.
-              Here's a link to my <a href="https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project/milestone2" target="_blank" style="text-decoration: none;">GitHub repository.</a></p>
-         <h3> My Third Project </h3>
-          <p> My third project for CUS 1172 was to style our profile using the Bootstrap grid system.
-              Here's a link to my <a href = "https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project/milestone3" target="_blank" style ="text-decoration:none;">GitHub repository.</a></p>
-           </ul></div>
+          <div class="panel-group">
+           <div class="panel panel-heading-custom-color"><h2>CUS 1172 Projects</h2> <ul></div>
+             <div class="panel-body"><h3>My First Project</h3>
+              <div class="panel panel-custom-color">
+               <p> My first project for CUS 1172 was to create an HTML page that included personal and professional information about myself.
+               Here's a link to my <a href="https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project" target="_blank" style="text-decoration: none;">GitHub repository.</a></p>
+              <h3>My Second Project</h3>
+              <p> My second project for CUS 1172 was to apply CSS to our profile that we created for the first project.
+               Here's a link to my <a href="https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project/milestone2" target="_blank" style="text-decoration: none;">GitHub repository.</a></p>
+              <h3> My Third Project </h3>
+              <p> My third project for CUS 1172 was to style our profile using various elements and the grid system from Bootstrap.
+               Here's a link to my <a href = "https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project/milestone3" target="_blank" style ="text-decoration:none;">GitHub repository.</a></p>
+             </ul></div></div>
        </div>
+      </div>
 
     <div class= "container-fluid">
       <h2>Podcast Recommendations</h2>
       <div id ="comment_form">
         <form method="POST">
            I'd like to start listening to more podcasts on true crime so if you have any recommendations for those types of podcasts, or any other podcast recs, let me know!<br>
-          <input type= "text" name="form_comment" style="height:40px; width: 800px; font-size:12pt;"><br>
-          <input type="submit" value="Submit" style="float: center"><br>
+          <input type= "text" name="form_comment" style="height:40px; width: 800px; font-size:12pt;">
+          <button type="button" class="btn btn-info" style="float: center">Submit</button><br>
         </form>
       </div>
     </div>
