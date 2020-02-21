@@ -10,6 +10,7 @@
 
   p{
    font-family: 'Source Sans Pro', sans-serif;
+   font-size: 18px;
   }
 
   span {
@@ -34,6 +35,7 @@
   th, td, tr{
    padding: 15px;
    text-align: center;
+   font-size:18px;
   }
 
   #hover {
@@ -51,6 +53,10 @@
 
   .centered_list ul li{
     display:inline;
+  }
+
+  li{
+    font-size: 18px;
   }
 
 </style>
