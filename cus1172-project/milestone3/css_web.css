@@ -59,4 +59,12 @@
     font-size: 18px;
   }
 
+  table: table-hover {
+     background-color: white;
+  }
+
+  iframe {
+    display: inline-block;
+  }
+
 </style>
