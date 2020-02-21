@@ -69,14 +69,13 @@
     display: inline-block;
   }
 
-  .panel-custom-color{
-    background: #F5FFFA;
+  .well-custom-color{
+    background: #F5F5F5;
     border-color: #F5FFFA;
   }
 
-  .panel-heading-custom-color{
-    background: #F5F5F5;
-    border-color: #F5FFFA;
+  .navbar-custom-color{
+    background: #F5FFFA;
   }
 
 </style>

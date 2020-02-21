@@ -32,19 +32,27 @@
 
      div.a {
       line-height: 200%;
+      font-size: 20px;
      }
       </style>
     </head>
 
     <body>
 
-      <h1>RAVEENA B E H A R R Y <span><nav>
-        <a href="#about_me" style="text-decoration: none;">About Me | </a>
-        <a href="#internship_experience" style="text-decoration: none;">Internship Experience | </a>
-        <a href="#programming_skills" style="text-decoration: none;">Programming Skills |</a>
-        <a href="#favorites" style="text-decoration: none;">Favorites |</a>
-        <a href="#projects" style="text-decoration: none;">Projects </a>
-      </nav></span></h1>
+       <nav class="navbar navbar-custom-color">
+        <div class="container-fluid">
+         <div class="navbar-header">
+           <a class="navbar-brand" href="#" style= "font-size: 35px;">RAVEENA B E H A R R Y</a>
+         </div>
+         <span><nav class= "navbar navbar-custom-color">
+          <div class="nav navbar-nav">
+            <a href="#about_me" style="text-decoration: none;">About Me | </a>
+            <a href="#internship_experience" style="text-decoration: none;">Internship Experience | </a>
+            <a href="#programming_skills" style="text-decoration: none;">Programming Skills |</a>
+            <a href="#favorites" style="text-decoration: none;">Favorites |</a>
+            <a href="#projects" style="text-decoration: none;">Projects </a>
+          </div></nav></span>
+         </div>
 
 
     <div class="container-fluid" id="about_me">
@@ -162,10 +170,8 @@
             </div>
 
        <div class= "container-fluid" id="projects">
-          <div class="panel-group">
-           <div class="panel panel-heading-custom-color"><h2>CUS 1172 Projects</h2> <ul></div>
-             <div class="panel-body"><h3>My First Project</h3>
-              <div class="panel panel-custom-color">
+          <div class="well well-sm well-custom-color"><h2>CUS 1172 Projects</h2> <ul></div>
+            <h3>My First Project</h3></a>
                <p> My first project for CUS 1172 was to create an HTML page that included personal and professional information about myself.
                Here's a link to my <a href="https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project" target="_blank" style="text-decoration: none;">GitHub repository.</a></p>
               <h3>My Second Project</h3>
@@ -174,17 +180,18 @@
               <h3> My Third Project </h3>
               <p> My third project for CUS 1172 was to style our profile using various elements and the grid system from Bootstrap.
                Here's a link to my <a href = "https://github.com/raveenabeharry/cus1172-project/tree/master/cus1172-project/milestone3" target="_blank" style ="text-decoration:none;">GitHub repository.</a></p>
-             </ul></div></div>
-       </div>
+              </ul>
+            </div>
+          </div>
       </div>
-
+      
     <div class= "container-fluid">
       <h2>Podcast Recommendations</h2>
       <div id ="comment_form">
         <form method="POST">
            I'd like to start listening to more podcasts on true crime so if you have any recommendations for those types of podcasts, or any other podcast recs, let me know!<br>
-          <input type= "text" name="form_comment" style="height:40px; width: 800px; font-size:12pt;">
-          <button type="button" class="btn btn-info" style="float: center">Submit</button><br>
+          <textarea class="form-control" rows="3" id="comment"></textarea>
+          <button type="button" class="btn btn-info" style="align: center">Submit</button><br>
         </form>
       </div>
     </div>
